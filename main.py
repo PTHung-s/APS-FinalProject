@@ -1,6 +1,6 @@
 import numpy as np
-from metropolis import metropolis
 from plot import plot_result
+from metropolis import metropolis
 
 def target_fn(x):
     return np.exp(-x**2 / 2)
