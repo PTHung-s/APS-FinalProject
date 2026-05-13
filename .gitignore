@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-.venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 Question1/proof.pdf/
 
-=======
 # =========================
 # macOS / system files
 # =========================
@@ -63,4 +60,3 @@ Question 3/data_wav/
 # Do NOT ignore Question 3/results/
 # because these are useful outputs for the report.
 # =========================
->>>>>>> e21ce0497c6459500e7fd1561faaab277ad8f5b9
