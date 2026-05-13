@@ -1,6 +1,66 @@
+<<<<<<< HEAD
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 Question1/proof.pdf/
 
+=======
+# =========================
+# macOS / system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter temporary files
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Raw / processed audio files
+# Usually too large for GitHub
+# =========================
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# Audio folders
+Music/
+noise/
+Question 3/wav9/
+Question 3/wav10/
+Question 3/wav10_exact/
+Question 3/data_wav/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.log
+
+# =========================
+# Keep results CSV and PNG
+# Do NOT ignore Question 3/results/
+# because these are useful outputs for the report.
+# =========================
+>>>>>>> e21ce0497c6459500e7fd1561faaab277ad8f5b9
