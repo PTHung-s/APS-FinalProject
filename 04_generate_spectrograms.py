@@ -6,8 +6,8 @@ Purpose:
 - A spectrogram shows how frequency content changes over time.
 
 Input folders:
-- wav10/music
-- wav10/noise
+- wav9/music
+- wav9/noise
 
 Output folder:
 - results/spectrograms
@@ -24,12 +24,12 @@ from scipy.signal import spectrogram
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav10/music")
-NOISE_DIR = Path("wav10/noise")
+MUSIC_DIR = Path("wav9/music")
+NOISE_DIR = Path("wav9/noise")
 OUT_DIR = Path("results/spectrograms")
 
 # Number of clips to plot for each class.
-N_PER_CLASS = 3
+N_PER_CLASS = 10
 
 
 def plot_spectrogram(filepath, label):

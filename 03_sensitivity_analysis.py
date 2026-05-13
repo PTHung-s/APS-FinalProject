@@ -8,8 +8,8 @@ Purpose:
 - Check whether the conclusion about Gaussian closeness is stable.
 
 Input folders:
-- wav10/music
-- wav10/noise
+- wav9/music
+- wav9/noise
 
 Output files:
 - results/sensitivity_per_clip.csv
@@ -28,8 +28,8 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav10/music")
-NOISE_DIR = Path("wav10/noise")
+MUSIC_DIR = Path("wav9/music")
+NOISE_DIR = Path("wav9/noise")
 RESULTS_DIR = Path("results")
 
 DELTAS = [0.05, 0.1, 0.2, 0.5]

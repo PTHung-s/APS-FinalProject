@@ -12,8 +12,8 @@ Purpose:
     5. Gap = h_Gauss - h_hat
 
 Input folders:
-- wav10/music
-- wav10/noise
+- wav9/music
+- wav9/noise
 
 Output files:
 - results/entropy_per_clip_delta_0.1.csv
@@ -30,8 +30,8 @@ import soundfile as sf
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav10/music")
-NOISE_DIR = Path("wav10/noise")
+MUSIC_DIR = Path("wav9/music")
+NOISE_DIR = Path("wav9/noise")
 RESULTS_DIR = Path("results")
 
 DELTA = 0.1

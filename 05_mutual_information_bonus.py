@@ -12,8 +12,8 @@ Interpretation:
 - Noise may have lower temporal dependence if it is more random.
 
 Input folders:
-- wav10/music
-- wav10/noise
+- wav9/music
+- wav9/noise
 
 Output files:
 - results/mutual_information_per_clip.csv
@@ -32,8 +32,8 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav10/music")
-NOISE_DIR = Path("wav10/noise")
+MUSIC_DIR = Path("wav9/music")
+NOISE_DIR = Path("wav9/noise")
 RESULTS_DIR = Path("results")
 
 DELTA = 0.1
