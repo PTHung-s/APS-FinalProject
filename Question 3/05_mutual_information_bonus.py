@@ -32,9 +32,11 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav9/music")
-NOISE_DIR = Path("wav9/noise")
-RESULTS_DIR = Path("results")
+BASE_DIR = Path("Question 3")
+
+MUSIC_DIR = BASE_DIR / "wav9/music"
+NOISE_DIR = BASE_DIR / "wav9/noise"
+RESULTS_DIR = BASE_DIR / "results"
 
 DELTA = 0.1
 

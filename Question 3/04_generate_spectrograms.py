@@ -24,9 +24,11 @@ from scipy.signal import spectrogram
 # Configuration
 # =========================
 
-MUSIC_DIR = Path("wav9/music")
-NOISE_DIR = Path("wav9/noise")
-OUT_DIR = Path("results/spectrograms")
+BASE_DIR = Path("Question 3")
+
+MUSIC_DIR = BASE_DIR / "wav9/music"
+NOISE_DIR = BASE_DIR / "wav9/noise"
+OUT_DIR = BASE_DIR / "results/spectrograms"
 
 # Number of clips to plot for each class.
 N_PER_CLASS = 10
