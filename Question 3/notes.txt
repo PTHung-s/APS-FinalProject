@@ -1,4 +1,0 @@
-sample rate 48khz
-stereo
-
-gear: Behringer xm8500 maximum gain audio played from a phone approximately 1cm away

@@ -44,10 +44,9 @@ ENV/
 # Audio folders
 Music/
 noise/
-Question 3/wav9/
-Question 3/wav10/
-Question 3/wav10_exact/
-Question 3/data_wav/
+Question3/wav10/
+Question3/wav10_exact/
+Question3/data_wav/
 
 # =========================
 # Temporary files
@@ -57,6 +56,6 @@ Question 3/data_wav/
 
 # =========================
 # Keep results CSV and PNG
-# Do NOT ignore Question 3/results/
+# Do NOT ignore Question3/results/
 # because these are useful outputs for the report.
 # =========================

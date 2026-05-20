@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-BASE_DIR = Path("Question 3")
+BASE_DIR = Path(__file__).resolve().parent
 
 MUSIC_DIR = BASE_DIR / "wav9/music"
 NOISE_DIR = BASE_DIR / "wav9/noise"

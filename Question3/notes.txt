@@ -1,0 +1,25 @@
+Question 3 audio data notes
+
+Raw recording:
+- Device/microphone: Behringer XM8500 microphone.
+- Raw format: MKV recordings.
+- Recorded sampling rate: 48 kHz.
+- Raw channel setting: stereo.
+
+Processed analysis files:
+- Audio was extracted from the MKV files using FFmpeg.
+- The extracted WAV files were converted to mono, 16-bit PCM.
+- All clips were trimmed to the first 9 seconds.
+- Final analysis sampling rate: 48 kHz.
+- Final clip length: 9 seconds, or 432000 samples per clip.
+
+Data set:
+- Ambient noise class: 10 clips of room/background noise.
+- Music class: 10 clips of music played from a phone approximately 1 cm away from the microphone.
+- The same microphone, sampling rate, conversion process, and clip length were used for both classes.
+
+Entropy settings:
+- Audio amplitudes were read as normalized samples in the range [-1, 1].
+- Bin range: [-1, 1].
+- Bin width: Delta = 0.1.
+- Number of bins: K = 20.
