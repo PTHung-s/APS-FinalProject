@@ -52,5 +52,5 @@ if __name__ == "__main__":
     print(f"n=4 (4-Ball): {vol_4d:.4f} (Expected: {expected_4d:.4f})")
     
     print("\nVolume starts decreasing for larger dimensions:")
-    for n in [5, 10, 20]:
+    for n in [5, 10, 100]:
         print(f"n={n}: {calculate_vol(n, radius):.6e}")
