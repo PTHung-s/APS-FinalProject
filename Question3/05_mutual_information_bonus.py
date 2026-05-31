@@ -188,7 +188,7 @@ def main():
     plt.xlabel("Lag in samples")
     plt.ylabel("Mean mutual information [bits]")
     plt.title("Mutual Information Between X_t and X_{t+lag}")
-    plt.legend()
+    plt.legend(fontsize=14)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
 
