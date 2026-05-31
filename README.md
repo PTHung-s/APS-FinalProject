@@ -34,7 +34,7 @@ APS-FinalProject/
 └── README.md
 '''
 
-## **Requirements**
+## Requirements
 
 ### System Requirements
 
