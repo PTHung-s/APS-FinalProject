@@ -49,6 +49,9 @@ COMBINED_NOISE_FILENAME = "2026-05-11 17-14-19.wav"
 COMBINED_OUT_NAME = "combined_music_noise_spectrogram.png"
 COMBINED_FONT_SCALE = 0.95
 
+# Output resolution (lower to reduce memory usage).
+SAVE_DPI = 200
+
 EPS = 1e-12
 
 
@@ -115,7 +118,7 @@ def plot_spectrogram(filepath, label, freqs, times, Sxx_db, vmin, vmax):
     plt.tight_layout()
 
     output_path = OUT_DIR / f"{label}_{filepath.stem}_spectrogram.png"
-    plt.savefig(output_path, dpi=300)
+    plt.savefig(output_path, dpi=SAVE_DPI)
     plt.close()
 
     print(f"Saved: {output_path}")
@@ -197,7 +200,7 @@ def plot_combined_spectrograms(music_path, noise_path):
     # Layout handled by subplots_adjust + fixed colorbar axis.
 
     output_path = OUT_DIR / COMBINED_OUT_NAME
-    fig.savefig(output_path, dpi=300)
+    fig.savefig(output_path, dpi=SAVE_DPI)
     plt.close(fig)
 
     print(f"Saved combined: {output_path}")

@@ -4,7 +4,7 @@
 Purpose:
 - Repeat entropy analysis using different bin widths.
 - Delta values:
-    0.05, 0.1, 0.2, 0.5
+    0.001, 0.002, 0.005, 0.01, 0.05, 0.1, 0.2, 0.5
 - Check whether the conclusion about Gaussian closeness is stable.
 
 Input folders:
@@ -34,7 +34,7 @@ MUSIC_DIR = BASE_DIR / "wav9/music"
 NOISE_DIR = BASE_DIR / "wav9/noise"
 RESULTS_DIR = BASE_DIR / "results"
 
-DELTAS = [0.05, 0.1, 0.2, 0.5]
+DELTAS = [0.001, 0.002, 0.005, 0.01, 0.05, 0.1, 0.2, 0.5]
 
 BIN_MIN = -1.0
 BIN_MAX = 1.0

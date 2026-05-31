@@ -25,7 +25,7 @@ APS-FinalProject/
 │   ├── 03_sensitivity_analysis.py
 │   ├── 04_generate_spectrograms.py     # Optional (may cause MemoryError)
 │   ├── 05_mutual_information_bonus.py
-│   ├── run_question3.py                # Run all Q3 scripts with one command
+│   ├── 06_run_question3.py             # Run all Q3 scripts with one command
 │   ├── Music/
 │   ├── noise/
 │   └── results/
@@ -85,7 +85,7 @@ Recommended command:
 
 ```bash
 cd Question3
-python run_question3.py
+python 06_run_question3.py
 ```
 
 Note for Question 3:
