@@ -29,7 +29,6 @@ APS-FinalProject/
 │   ├── Music/
 │   ├── noise/
 │   └── results/
-├── project_outputs/
 ├── requirements.txt
 └── README.md
 ```
